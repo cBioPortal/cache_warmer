@@ -18,7 +18,7 @@ import puppeteer from 'puppeteer';
 
 (async () => {
   // Launch the browser and open a new blank page
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch({headless: 'new'});
   const page = await browser.newPage();
 
   for (const item of urls) {
