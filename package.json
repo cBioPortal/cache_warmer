@@ -1,0 +1,10 @@
+{
+  "name": "cache-primer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lismana <lismanBusiness@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  }
+}
